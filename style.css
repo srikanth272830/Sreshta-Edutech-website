@@ -390,8 +390,29 @@ ul li:hover .dropdown-content {display: block;}
   margin-top: 20px;
 }
 
+.logdiv{
+  width:15%;
+  justify-content: center;
+  align-items: center;
+ margin-top: 50px;
+ margin-left: 500px;
+}
+.logdiv div{
+  width: 100%;
+}
+.logdiv div button{
+  width: 100%;
+}
+.logbutton{
+  border: 1px solid #000000;
+  border-radius: 10px;
+  height: 7vh;
+  font-weight: 700;
 
-
+}
+.logdiv div button:hover{
+  background-color: blue;
+}
 .wrapper1 {
   padding: 35px;
   position: relative;
@@ -443,7 +464,7 @@ ul li:hover .dropdown-content {display: block;}
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
-.tabs-box1.dragging1 {
+.tabs-box1.dragging {
   scroll-behavior: auto;
   cursor: grab;
 }
@@ -459,11 +480,11 @@ ul li:hover .dropdown-content {display: block;}
 .tabs-box1 .tab1:hover {
   background: #efedfb;
 }
-.tabs-box1.dragging .tab1 {
+.tabs-box1.dragging .tab {
   user-select: none;
   pointer-events: none;
 }
-.tabs-box1 .tab.active1 {
+.tabs-box1 .tab1.active {
   color: #fff;
   background: #e76f51;
   border-color: transparent;
@@ -472,12 +493,11 @@ ul li:hover .dropdown-content {display: block;}
   /* border: 1px solid #DADADA; */
   /* border-radius: 10px; */
   width: 100%;
-  background-color: greenyellow;
 }
 .slideimgdiv1{
   width: 100%;
 }
-.slideimgdiv img1{
+.slideimgdiv1 img{
   width: 100%;
 }
 .detailsdiv1{
@@ -496,28 +516,9 @@ ul li:hover .dropdown-content {display: block;}
   width: 100%;
   font-size: 1.5vw;
 }
-.logdiv{
-  width:15%;
-  justify-content: center;
-  align-items: center;
- margin-top: 50px;
- margin-left: 500px;
-}
-.logdiv div{
-  width: 100%;
-}
-.logdiv div button{
-  width: 100%;
-}
-.logbutton{
-  border: 1px solid #000000;
-  border-radius: 10px;
-  height: 7vh;
-  font-weight: 700;
-
-}
-.logdiv div button:hover{
-  background-color: blue;
+.hoverimg{
+  transform: translateZ(0);
+  /* transition-duration: 0.5s; */
 }
 
 @keyframes rotate {
